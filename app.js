@@ -8,7 +8,6 @@ var mainRouter = require('./router/main');
 var loginRouter = require('./router/login');
 var registerRouter = require('./router/register');
 
-
 //뷰엔진 설정
 app.set('view engine','ejs');
 app.set('views','./view');
